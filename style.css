@@ -1,0 +1,660 @@
+* {
+    margin: auto;
+    padding: 0;
+    font-family: Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+
+}
+
+body {
+    background-color: black;
+}
+
+/* NAVBAR */
+
+nav {
+    display: flex;
+    /* background-color: brown; */
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    padding-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 14px;
+}
+
+.selection {
+    width: 90px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.signin {
+    height: 30px;
+    width: 77px;
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+
+/* WALLPAPER */
+.container {
+    height: 95vh;
+    width: auto;
+    max-width: 100%;
+}
+
+.boxxolor {
+    height: 95vh;
+    width: 100%;
+    opacity: 0.61;
+    background-color: black;
+}
+
+.bgimg {
+    height: 95vh;
+    width: 100%;
+    /* background-image: url(images/wallpaper.jpg); */
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/dd4dfce3-1a39-4b1a-8e19-b7242da17e68/86742114-c001-4800-a127-c9c89ca7bbe4/IN-en-20240527-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    position: absolute;
+    /* background-size: max(1200px, 100%); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.textwallpaper {
+    height: 60%;
+    width: 100%;
+    color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+
+
+}
+
+.textwallpaper span:nth-child(1) {
+    margin-top: 185px;
+    font-size: 39px;
+    font-weight: 900;
+}
+
+.textwallpaper span:nth-child(2) {
+
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.textwallpaper span:nth-child(3) {
+    font-size: 1.05rem;
+    font-weight: 400;
+}
+
+.sectionh {
+    display: flex;
+    gap: 10PX;
+}
+
+.sectionh input[type="text"] {
+    background-color: black;
+    opacity: 0.62;
+    border-radius: 5px;
+    border: #716a6a solid 1px;
+    padding: 18px 219px 15px 0px;
+
+}
+
+.sectionh input::placeholder {
+    padding-left: 15px;
+    color: white;
+    font-weight: 400;
+}
+
+.sectionh input:focus {
+    border: 1px solid rgb(255, 255, 255);
+    outline: none;
+    color: white;
+    padding-left: 15px;
+}
+
+
+.sectionh button[type="submit"] {
+    background-color: red;
+    color: white;
+    font-weight: 590;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    padding: 13px;
+}
+
+.sectionh button[type="submit"]:hover {
+    background-color: #e50707;
+
+}
+
+
+
+/* line */
+.seprate1 {
+    height: 8px;
+    width: 100%;
+    background-color: rgb(43 42 42);
+}
+
+.seprate {
+    height: 8px;
+    width: 100%;
+    background-color: rgb(43 42 42);
+}
+
+/* secondcontainer2 */
+
+.secondcontainer2 {
+    color: white;
+    height: 80vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.textsecond {
+    color: white;
+    width: 50%;
+    /* background-color: #e50707; */
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.firsttextsection span:nth-child(1) {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.secondtextsection {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.secondtextsection span:nth-child(1) {
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.secondtextsection span:nth-child(2) {
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.secondvid {
+    /* background-color: yellow; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secondvid img {
+    position: relative;
+    height: 286px;
+    width: 451px;
+}
+
+.secondvid video {
+    position: absolute;
+    height: 599px;
+    width: 291px;
+
+}
+
+
+/* third Section */
+
+
+.thirdcontainer3 {
+    color: white;
+    height: 80vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.morecenter {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.third {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.third img:nth-child(1) {
+    height: 291px;
+    width: 430px;
+}
+
+.thirdbox {
+    height: 74px;
+    border: 2px solid #2f2a2a;
+    width: 21vw;
+    background-color: #000000;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 5px 5px 5px;
+    justify-content: center;
+    position: absolute;
+    margin-top: 178px;
+
+}
+
+
+.thirdbox img:nth-child(1) {
+    height: 67px;
+    width: 40px;
+}
+
+/* loader */
+.thirdbox img {
+    position: relative;
+    /* padding: 2px 6px 5px; */
+    /* background-color: #2f2a2a; */
+    opacity: 0.8;
+    border-radius: 8px;
+
+}
+
+
+
+
+.thirdboxtext span:nth-child(1) {
+    font-weight: 500;
+}
+
+.thirdboxtext span:nth-child(2) {
+    font-size: 12px;
+    color: blue;
+}
+
+
+/* third section */
+/* for the text */
+
+.thirdtextsecond {
+    color: white;
+    width: 50%;
+    /* background-color: #e50707; */
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.thirdtextsection1 span {
+    font-weight: 900;
+    font-size: 40px;
+    padding-bottom: 90px;
+
+
+}
+
+
+.thirdtextsection2 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.thirdtextsection2 span {
+    font-weight: 400;
+    font-size: 17px;
+}
+
+/* containerofli */
+.containerofquestions {
+    height: 125vh;
+    padding: 10px;
+    text-align: center;
+    color: white;
+
+}
+
+.containerofquestions h1 {
+    padding: 25px 0px 20px;
+}
+
+.containerofli {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.containerofli ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.containerofli ul li {
+    width: 60vw;
+    height: 40px;
+    background-color: rgb(45, 45, 45);
+    padding: 20px 40px 0px 20px;
+    font-size: 20px;
+
+}
+
+.containerofli ul li:hover {
+    transition: all 1s cubic-bezier(0.5, 0, 0.1, 1);
+    background-color: rgb(65, 65, 65);
+}
+
+.containerofli li div span:nth-child(1) {
+
+    float: left;
+}
+
+.containerofli li div span:nth-child(2) {
+    float: right;
+}
+
+/* membership */
+.membership {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.membership span {
+    margin-bottom: 20px;
+}
+
+.membership div:nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+/* footer */
+footer {
+    color: rgb(255, 255, 255);
+    font-size: smaller;
+    margin-top: 55px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 55vh;
+}
+
+footer div {
+    margin-top: 30px;
+}
+
+footer div ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+footer div:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+}
+
+footer div span:nth-child(1) {
+    margin-bottom: 10px;
+}
+
+
+/* @media screen and (max-width: 2800px) {
+    .textwallpaper span:nth-child(1) {
+        margin-top: 481px;
+        font-size: 75px;
+        font-weight: 900;
+    }
+} */
+
+@media screen and (max-width: 429px) {
+
+    .bgimg {
+        height: 100vh;
+        width: 100%;
+
+        background-size: cover;
+
+    }
+
+    .boxxolor {
+        height: 100vh;
+        width: 100%;
+
+    }
+
+    .containerofli ul li {
+        font-size: 10px;
+        width: 35vw;
+    }
+
+
+
+    .sectionh input[type="text"] {
+        padding: 18px 148px 15px 0px;
+    }
+
+    footer div ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    footer {
+        height: 91vh;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width : 886px) {
+    .sectionh {
+
+        flex-direction: column;
+
+    }
+
+    .secondvid video {
+        height: 105px;
+        margin-top: 62px;
+
+    }
+
+    .secondvid img {
+        height: 235px;
+        width: 300px;
+        margin-top: 65px;
+
+    }
+
+    .textwallpaper span:nth-child(1) {
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+
+    .secondcontainer2 {
+        height: 75vh;
+        justify-content: flex-start;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 30px;
+
+    }
+
+
+
+    .textsecond {
+        width: 50%;
+        /* background-color: #e50707; */
+        height: 33vh;
+        text-align: center;
+
+    }
+
+    .firsttextsection span:nth-child(1) {
+        font-weight: 700;
+        font-size: 32px;
+        margin-bottom: 50px;
+    }
+
+
+    .thirdcontainer3 {
+        height: 75vh;
+
+        flex-wrap: wrap-reverse;
+    }
+
+    .thirdtextsection1 span {
+        font-weight: 700;
+        font-size: 32px;
+    }
+
+    /* seprate line */
+    .seprate1 {
+
+        margin-bottom: 50px;
+    }
+
+    .seprate {
+
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+
+
+
+
+    .thirdtextsecond {
+
+        height: 26vh;
+        text-align: center;
+
+    }
+
+    .thirdbox {
+
+        width: 42vw;
+
+    }
+
+    .containerofquestions h1 {
+        /* padding: 25px 0px 20px;
+     */
+        font-size: 32px;
+    }
+
+    .containerofquestions {
+        height: 115vh;
+    }
+
+    .containerofli ul li {
+        width: 76vw;
+        height: 40px;
+        font-size: 16px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 403px) {
+
+    nav {
+        display: flex;
+        /* background-color: brown; */
+        width: 100%;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        padding-top: 20px;
+        flex-wrap: wrap;
+    }
+
+    .textwallpaper span:nth-child(2) {
+        font-weight: 400;
+        font-size: 17px;
+    }
+
+    .textwallpaper span:nth-child(3) {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+}
+
+@media screen and (max-width:390px) {
+    .bgimg {
+        height: 75vh;
+        width: 100%;
+
+    }
+
+    .boxxolor {
+        height: 75vh;
+        width: 100%;
+
+    }
+
+    .textwallpaper span:nth-child(1) {
+        margin-top: 185px;
+    }
+
+    .container {
+        height: 75vh;
+        width: auto;
+        max-width: 100%;
+    }
+
+    .secondcontainer2 {
+        height: 75vh;
+    }
+
+    .thirdcontainer3 {
+        height: 75vh;
+    }
+
+    .containerofquestions {
+        height: 117vh;    }
+
+    footer {
+        height: 60vh;
+    }
+}
+
